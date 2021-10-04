@@ -16,6 +16,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-html-beautify": "^1.0.1",
     "gulp-imagemin": "^8.0.0",
@@ -27,9 +28,11 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2",
     "htmlhint": "^0.15.2",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "stylelint": "^13.13.1",
+    "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
   },
-  "dependencies": {
-    "gulp-fonter": "^0.3.0"
-  }
+  "dependencies": {}
 }
