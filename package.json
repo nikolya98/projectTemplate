@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "check-js": "npx eslint ./src",
-    "fix-js": "npx eslint ./src --fix"
+    "eslint": "npx eslint ./src/js/**/*.js",
+    "eslint:fix": "npx eslint ./src/js/**/*.js --fix",
+    "stylelint": "npx stylelint ./src/scss/**/*.scss",
+    "stylelint:fix": "npx stylelint ./src/scss/**/*.scss --fix"
   },
   "keywords": [],
   "author": "",
@@ -39,8 +41,13 @@
     "prettier": "^2.4.1",
     "sass": "^1.42.1",
     "stylelint": "^13.13.1",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
     "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {}
