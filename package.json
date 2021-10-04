@@ -1,10 +1,11 @@
 {
-  "name": "gulp-config",
+  "name": "project-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check-js": "npx eslint ./src",
+    "fix-js": "npx eslint ./src --fix"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,13 @@
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "del": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
@@ -28,6 +36,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2",
     "htmlhint": "^0.15.2",
+    "prettier": "^2.4.1",
     "sass": "^1.42.1",
     "stylelint": "^13.13.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
